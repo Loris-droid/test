@@ -1,3 +1,12 @@
 .classy {
     color: skyblue;
   }
+.section1{
+    background-color: #cfe3f5; /* couleur de fond */
+    padding: 20px; /* espacement */
+    margin: 20px auto; /* centrage */
+    width: 80%; /* taille */
+    border-radius: 10px; /* le corner arrondi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* l'ombre */
+    transition: transform 0.3s ease; /* Quand la souris passe dessus, la casse s'agrandit */
+}
