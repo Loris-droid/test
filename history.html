@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple - Histoire</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Histoire d'Apple</h1>
+        <nav>
+            <button onclick="toggleMenu()">Menu</button>
+            <ul id="navMenu" class="hidden">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="history.html">Histoire</a></li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="keynotes.html">Keynotes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Les débuts de l'entreprise</h2>
+        <p>Apple a été fondée en 1976 par Steve Jobs, Steve Wozniak et Ronald Wayne.</p>
+        <img src="images/apple-founders.jpg" alt="Fondateurs d'Apple">
+    </main>
+    <script>
+        function toggleMenu() {
+            document.getElementById('navMenu').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple - Accueil</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le site Apple</h1>
+        <nav>
+            <button onclick="toggleMenu()">Menu</button>
+            <ul id="navMenu" class="hidden">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="history.html">Histoire</a></li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="keynotes.html">Keynotes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Découvrez l'univers Apple</h2>
+        <p>Apple, une entreprise innovante qui change le monde de la technologie.</p>
+    </main>
+    <script>
+        function toggleMenu() {
+            document.getElementById('navMenu').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

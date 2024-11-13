@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple - Keynotes</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Les Keynotes d'Apple</h1>
+        <nav>
+            <button onclick="toggleMenu()">Menu</button>
+            <ul id="navMenu" class="hidden">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="history.html">Histoire</a></li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="keynotes.html">Keynotes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Les moments clés des keynotes</h2>
+        <p>Résumé des dernières keynotes Apple et des annonces importantes.</p>
+        <img src="images/apple-keynotes.jpg" alt="Keynotes Apple">
+    </main>
+    <script>
+        function toggleMenu() {
+            document.getElementById('navMenu').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
